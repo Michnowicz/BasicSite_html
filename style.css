@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+
+.wrapper{
+    width: 600px;
+    /* background-color: rgba(238, 220, 197, 1); */
+    margin: 60px;
+}
+
+.main-img{
+    max-width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    vertical-align: bottom;
+}
+
+.title-wrapper{
+    position:relative;
+}
+
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    padding: 8px;
+    min-width: 300px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+.content{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.subtitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #505050;
+    margin-top: 0px;
+}
+
+.signature{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
